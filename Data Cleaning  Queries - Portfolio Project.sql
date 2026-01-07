@@ -4,12 +4,6 @@ Data Cleaning using SQL Queries
 
 */
 
-
-USE PortfolioProject
-
-SELECT *
-FROM nashville_housing;
-
 -- Standardize Date Format
 
 SELECT SaleDate
@@ -180,5 +174,5 @@ DROP COLUMN
 	SaleDate,
 	OwnerAddress, 
 	PropertyAddress,
-
 	TaxDistrict;
+
