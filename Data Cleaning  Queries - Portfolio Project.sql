@@ -1,6 +1,6 @@
 /*
 
-Cleaning Data using SQL Queries
+Data Cleaning using SQL Queries
 
 */
 
@@ -180,4 +180,5 @@ DROP COLUMN
 	SaleDate,
 	OwnerAddress, 
 	PropertyAddress,
+
 	TaxDistrict;
