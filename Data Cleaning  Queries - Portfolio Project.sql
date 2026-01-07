@@ -18,9 +18,6 @@ Add SaleDateConverted Date;
 UPDATE nashville_housing
 SET SaleDateConverted = CONVERT(Date, SaleDate);
 
-SELECT SaleDateConverted
-FROM nashville_housing;
-
 -- Populate Property Address Data
 
 SELECT *
@@ -175,4 +172,5 @@ DROP COLUMN
 	OwnerAddress, 
 	PropertyAddress,
 	TaxDistrict;
+
 
